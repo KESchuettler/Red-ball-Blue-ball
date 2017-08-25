@@ -1,0 +1,29 @@
+.blueBall {
+  background-image: url("blue.png");
+  background-size: cover;
+}
+
+.redBall {
+  background-image: url('red.png');
+  background-size: cover;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-item {
+  border: 1 solid black;
+}
+
+.img {
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+}
